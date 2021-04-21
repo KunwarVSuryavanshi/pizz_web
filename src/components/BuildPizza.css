@@ -1,0 +1,58 @@
+.build_table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+}
+.build_div h3{
+    margin-left: 10%;
+}
+.build_div h2{
+    text-align: center;
+}
+.build_table tr:nth-child(odd){
+    background-color: #f2f2f2;
+}
+.build_table tr td{
+    text-align: center;
+}
+.build_table tr:hover{
+    background-color: rgb(236, 232, 232);
+}
+.build_table_row{
+   border: 1px solid black;
+}
+.build_table_row td{
+    border: 1px solid black;
+    padding: 10px;
+    width: 20%;
+}
+.build_table_row img{
+    height: 50px;
+    width: 90px;
+}
+.build_div div{
+    text-align: center;
+}
+.build_div div button{
+    background-color: black;
+    color: coral;
+    font-size: 0.20in;
+    padding: 10px;
+    border-radius: 5px;
+}
+#last_d{
+    color: rgb(221, 208, 19);
+    font-size: 35px;
+    padding: 10px;
+    font-family:fantasy;
+    text-align: center;
+}
+#last_d input{
+    margin-top: 0px;
+    margin-right: 15px;
+}
+@media (max-width:600px){
+    
+}
